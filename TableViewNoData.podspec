@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TableViewNoData"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.summary      = "A about of TableViewNoData."
 
   # This description is used to generate tags and improve search results.
@@ -89,10 +89,18 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "TableViewNoData/*"
+  # s.source_files  = "TableViewNoData/*"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
+
+
+  s.subspec 'NoDataTableView' do |nv|
+      nv.source_files = 'TableViewNoNata/NoDataTableView/*.{h,m}'
+
+  end 
+
+
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
