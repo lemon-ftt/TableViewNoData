@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		274FFBF51E9F0FCB005CF828 /* NoDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = 274FFBF01E9F0FCB005CF828 /* NoDataView.m */; };
+		274FFBF61E9F0FCB005CF828 /* NSObject+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 274FFBF21E9F0FCB005CF828 /* NSObject+Swizzling.m */; };
+		274FFBF71E9F0FCB005CF828 /* UITableView+NoData.m in Sources */ = {isa = PBXBuildFile; fileRef = 274FFBF41E9F0FCB005CF828 /* UITableView+NoData.m */; };
 		27D965DE1E9DC65700A3316F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D965DD1E9DC65700A3316F /* main.m */; };
 		27D965E11E9DC65700A3316F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D965E01E9DC65700A3316F /* AppDelegate.m */; };
 		27D965E41E9DC65700A3316F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D965E31E9DC65700A3316F /* ViewController.m */; };
 		27D965E71E9DC65700A3316F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27D965E51E9DC65700A3316F /* Main.storyboard */; };
 		27D965E91E9DC65700A3316F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27D965E81E9DC65700A3316F /* Assets.xcassets */; };
 		27D965EC1E9DC65700A3316F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27D965EA1E9DC65700A3316F /* LaunchScreen.storyboard */; };
-		27D965F61E9DD1F000A3316F /* UITableView+NoData.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D965F51E9DD1F000A3316F /* UITableView+NoData.m */; };
-		27D965F91E9DD54A00A3316F /* NSObject+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D965F81E9DD54A00A3316F /* NSObject+Swizzling.m */; };
-		27D965FC1E9E106C00A3316F /* NoDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D965FB1E9E106C00A3316F /* NoDataView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		274FFBEF1E9F0FCB005CF828 /* NoDataView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoDataView.h; sourceTree = "<group>"; };
+		274FFBF01E9F0FCB005CF828 /* NoDataView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoDataView.m; sourceTree = "<group>"; };
+		274FFBF11E9F0FCB005CF828 /* NSObject+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swizzling.h"; sourceTree = "<group>"; };
+		274FFBF21E9F0FCB005CF828 /* NSObject+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swizzling.m"; sourceTree = "<group>"; };
+		274FFBF31E9F0FCB005CF828 /* UITableView+NoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+NoData.h"; sourceTree = "<group>"; };
+		274FFBF41E9F0FCB005CF828 /* UITableView+NoData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+NoData.m"; sourceTree = "<group>"; };
 		27D965D91E9DC65600A3316F /* TableViewNoNataDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewNoNataDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27D965DD1E9DC65700A3316F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		27D965DF1E9DC65700A3316F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -29,12 +35,6 @@
 		27D965E81E9DC65700A3316F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27D965EB1E9DC65700A3316F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27D965ED1E9DC65700A3316F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		27D965F41E9DD1F000A3316F /* UITableView+NoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+NoData.h"; sourceTree = "<group>"; };
-		27D965F51E9DD1F000A3316F /* UITableView+NoData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+NoData.m"; sourceTree = "<group>"; };
-		27D965F71E9DD54A00A3316F /* NSObject+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swizzling.h"; sourceTree = "<group>"; };
-		27D965F81E9DD54A00A3316F /* NSObject+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swizzling.m"; sourceTree = "<group>"; };
-		27D965FA1E9E106C00A3316F /* NoDataView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoDataView.h; sourceTree = "<group>"; };
-		27D965FB1E9E106C00A3316F /* NoDataView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoDataView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +48,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		274FFBED1E9F0FCB005CF828 /* TableViewNoNata */ = {
+			isa = PBXGroup;
+			children = (
+				274FFBEE1E9F0FCB005CF828 /* NoDataTableView */,
+			);
+			path = TableViewNoNata;
+			sourceTree = "<group>";
+		};
+		274FFBEE1E9F0FCB005CF828 /* NoDataTableView */ = {
+			isa = PBXGroup;
+			children = (
+				274FFBEF1E9F0FCB005CF828 /* NoDataView.h */,
+				274FFBF01E9F0FCB005CF828 /* NoDataView.m */,
+				274FFBF11E9F0FCB005CF828 /* NSObject+Swizzling.h */,
+				274FFBF21E9F0FCB005CF828 /* NSObject+Swizzling.m */,
+				274FFBF31E9F0FCB005CF828 /* UITableView+NoData.h */,
+				274FFBF41E9F0FCB005CF828 /* UITableView+NoData.m */,
+			);
+			path = NoDataTableView;
+			sourceTree = "<group>";
+		};
 		27D965D01E9DC65600A3316F = {
 			isa = PBXGroup;
 			children = (
@@ -67,7 +88,7 @@
 		27D965DB1E9DC65600A3316F /* TableViewNoNataDemo */ = {
 			isa = PBXGroup;
 			children = (
-				27D965F31E9DD19E00A3316F /* TableViewNoNata */,
+				274FFBED1E9F0FCB005CF828 /* TableViewNoNata */,
 				27D965DF1E9DC65700A3316F /* AppDelegate.h */,
 				27D965E01E9DC65700A3316F /* AppDelegate.m */,
 				27D965E21E9DC65700A3316F /* ViewController.h */,
@@ -87,19 +108,6 @@
 				27D965DD1E9DC65700A3316F /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		27D965F31E9DD19E00A3316F /* TableViewNoNata */ = {
-			isa = PBXGroup;
-			children = (
-				27D965F71E9DD54A00A3316F /* NSObject+Swizzling.h */,
-				27D965F81E9DD54A00A3316F /* NSObject+Swizzling.m */,
-				27D965F41E9DD1F000A3316F /* UITableView+NoData.h */,
-				27D965F51E9DD1F000A3316F /* UITableView+NoData.m */,
-				27D965FA1E9E106C00A3316F /* NoDataView.h */,
-				27D965FB1E9E106C00A3316F /* NoDataView.m */,
-			);
-			path = TableViewNoNata;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,11 +183,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				27D965E41E9DC65700A3316F /* ViewController.m in Sources */,
+				274FFBF51E9F0FCB005CF828 /* NoDataView.m in Sources */,
+				274FFBF71E9F0FCB005CF828 /* UITableView+NoData.m in Sources */,
 				27D965E11E9DC65700A3316F /* AppDelegate.m in Sources */,
-				27D965F61E9DD1F000A3316F /* UITableView+NoData.m in Sources */,
-				27D965F91E9DD54A00A3316F /* NSObject+Swizzling.m in Sources */,
+				274FFBF61E9F0FCB005CF828 /* NSObject+Swizzling.m in Sources */,
 				27D965DE1E9DC65700A3316F /* main.m in Sources */,
-				27D965FC1E9E106C00A3316F /* NoDataView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +344,7 @@
 				27D965F21E9DC65700A3316F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
