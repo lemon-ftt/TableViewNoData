@@ -59,7 +59,13 @@
 
 - (void)makeDefaultPlaceholderView {
     self.bounds = CGRectMake(0, 0, self.frame.size.width, self.frame.size.height);
-    NoDataView *noDataView = [[NoDataView alloc]initWithFrame:self.bounds];
+    NoDataView *noDataView = [[NoDataView alloc]init];
+    if (self.tableHeaderView) {
+        noDataView.frame = CGRectMake(0,CGRectGetHeight(self.tableHeaderView.frame), self.frame.size.width,  self.frame.size.height - CGRectGetHeight(self.tableHeaderView.frame));
+    }else {
+        noDataView.frame = self.bounds;
+    }
+    
     if (self.noDataBlock) {
         self.noDataBlock(noDataView);
     }
