@@ -49,6 +49,16 @@
         //默认占位图
         if (!self.placeholderView) {
             [self makeDefaultPlaceholderView];
+        }else {
+            if (self.noDataBlock) {
+                self.noDataBlock(self.placeholderView);
+            }
+            __weak typeof(self) weakSelf = self;
+            [self.placeholderView setReloadClickBlock:^{
+                if (weakSelf.reloadBlock) {
+                    weakSelf.reloadBlock();
+                }
+            }];
         }
         self.placeholderView.hidden = NO;
         [self addSubview:self.placeholderView];

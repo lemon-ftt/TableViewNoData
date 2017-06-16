@@ -12,5 +12,6 @@
 
 @property (nonatomic, strong) UIButton *reloadButton;
 @property (nonatomic, copy) void(^reloadClickBlock)(void);
+@property (nonatomic, strong) UIImage *bgImageBtn;
 
 @end
